@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script type="text/javascript" src="~/Scripts/Validaciones.js"></script>
+<html>
+<head>
+
+    <title> Formulario</title>
+</head>
+<body>
+  
+        <form name="form" action=" Form" method="post" id="formulario">
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input name="txtNombre" id="txtNombre" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Direccion</td>
+                    <td><input name="txtDireccion" id="txtDireccion" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td><input name="txtEdad" id="txtEdad" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Correo</td>
+                    <td><input name="txtCorreo" id="txtCorreo" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Habilidad principal</td>
+                    <td><input name="txtHPrincipal" id="txtHPrincipal" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Habilidad Secundaria</td>
+                    <td><input name="txtHSecundaria" id="txtHSecundaria" type="text" value="" /></td>
+                </tr>
+                <tr>
+                    <td colspan=2><input type="submit" value="Submit" /></td>
+
+                </tr>
+            </table>
+        </form>
+    
+    </body>
+</html>
+
+
+
+
